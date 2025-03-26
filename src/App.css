@@ -1,0 +1,7 @@
+:root{
+    --bg-orange:#FD7E14 !important;
+}
+
+.nav{
+    background-color: var(--bg-orange);
+}
