@@ -40,7 +40,7 @@ const Home = () => {
               }} />
           </div>
 
-          <div className="col-sm-12 ms-3 shadow-lg">
+          <div className="col-sm-12 ms-3">
             <Swiper
               spaceBetween={30}
               centeredSlides={true}
@@ -54,29 +54,29 @@ const Home = () => {
               navigation={true}
               modules={[Autoplay, Pagination, Navigation]}
               className="mySwiper">
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <img src="/pngwing.com.png" alt="Loading......" className='w-100' style={{ height: '50vh' }} />
+              </SwiperSlide> */}
+              <SwiperSlide>
+                <img src="/c9.jpg" alt="Loading......" className='w-100' style={{ height: '40vh' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/c9.jpg" alt="Loading......" className='w-100' style={{ height: '50vh' }} />
+                <img src="/c13.jpg" alt="Loading......" className='w-100' style={{ height: '40vh' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/c13.jpg" alt="Loading......" className='w-100' style={{ height: '50vh' }} />
+                <img src="/c16.jpg" alt="Loading......" className='w-100' style={{ height: '40vh' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/c16.jpg" alt="Loading......" className='w-100' style={{ height: '50vh' }} />
+                <img src="/c17.jpg" alt="Loading......" className='w-100' style={{ height: '40vh' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/c17.jpg" alt="Loading......" className='w-100' style={{ height: '50vh' }} />
+                <img src="/c19.jpg" alt="Loading......" className='w-100' style={{ height: '40vh' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/c19.jpg" alt="Loading......" className='w-100' style={{ height: '50vh' }} />
+                <img src="/c3.jpg" alt="Loading......" className='w-100' style={{ height: '40vh' }} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="/c3.jpg" alt="Loading......" className='w-100' style={{ height: '50vh' }} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="/c12.jpg" alt="Loading......" className='w-100' style={{ height: '50vh' }} />
+                <img src="/c12.jpg" alt="Loading......" className='w-100' style={{ height: '40vh' }} />
               </SwiperSlide>
             </Swiper>
           </div>
