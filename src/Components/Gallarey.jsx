@@ -76,7 +76,7 @@ const Gallery = ({ images }) => {
                             {
                                 gallery.map((item, index) => {
                                     return (
-                                        <div className='d-flex flex-column' key={index}>
+                                        <div className='d-flex flex-column gallery-item' key={index}>
                                             <img src={item.src} className='rounded-4' style={{ height: '30vh', width: '20vw', objectFit: 'cover' }} />
                                             <span className='text-center fw-bold fs-4'>{item.text}</span>
                                         </div>
