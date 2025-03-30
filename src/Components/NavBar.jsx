@@ -15,7 +15,7 @@ const NavBar = () => {
                                     <img height={60}  src='./pngwing.com.png' />
                                 </Link>
                                 <button
-                                    className="navbar-toggler"
+                                    className="navbar-toggler border border-warning text-warning"
                                     type="button"
                                     data-bs-toggle="collapse"
                                     data-bs-target="#navbarNavDropdown"
