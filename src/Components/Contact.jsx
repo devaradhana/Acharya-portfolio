@@ -16,11 +16,11 @@ const Contact = () => {
           <FontAwesomeIcon icon={faWhatsapp} className='text-success' style={{ width: '10vw', height: '10vh', position: 'fixed', bottom: '30px', right: '20px' }} />
         </WhatsAppRedirect>
         <div className="row ">
-          <div className="col-sm-3"></div>
-          <div className="col-sm-6 ">
+          <div className="col-sm-3 col-md-3"></div>
+          <div className="col-sm-6 col-md-6">
             <h1 className='text-center my-4'><span className='text-warning' >CONTACT</span>US</h1>
             <div className="row my-4 ">
-              <div className="col-sm-6 bg-light border border-warning rounded-5 shadow-lg">
+              <div className="col-sm-6 col-md-6 bg-light border border-warning rounded-5 shadow-lg">
                 <p className='cont mt-3'><FontAwesomeIcon icon={faPhone}  className='text-warning' /> :   +91  8884009140</p>
                 <br />
                 <p className=''> <FontAwesomeIcon icon={faEnvelope} className='text-warning' /> :  panditarunmishra6@gmail.com</p>
@@ -34,7 +34,7 @@ const Contact = () => {
                   </WhatsAppRedirect></button>
               </div>
 
-              <div className="col-sm-6 bg-light border border-warning rounded-5 shadow-lg">
+              <div className="col-sm-6 col-md-6 bg-light border border-warning rounded-5 shadow-lg">
                 <form>
                 <input type='text' className='form-control my-3' placeholder='YOUR NAME' />
                 <input type='number' className='form-control my-3' placeholder='MOBILE NO.' />
@@ -47,7 +47,7 @@ const Contact = () => {
           </div>
 
 
-          <div className="col-sm-3"></div>
+          <div className="col-sm-3 col-md-3"></div>
         </div>
       </div>
     </>
